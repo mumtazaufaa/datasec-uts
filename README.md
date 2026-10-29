@@ -20,13 +20,15 @@ This is a public static website. Anyone who knows the URL may be able to open it
 ## Pages
 
 - `index.html` — overview and four study sections
-- `chapters/computer-database-security.html` — Sessions 1–2
-- `chapters/classical-encryption.html` — Sessions 3–4 and calculation practice
-- `chapters/block-cipher-des.html` — Sessions 5–6
-- `chapters/modes-of-operation.html` — Session 7
-- `css/style.css` — minimalist responsive design
+- `chapters/computer-database-security.html` — Sessions 1–2: CIA (5 aspek), OSI, attack tree, database security; bahasa sederhana + gambar slide
+- `chapters/classical-encryption.html` — Sessions 3–4: model cipher, Caesar, Monoalphabetic, Playfair, Hill, Vigenère, Rail Fence, Kolom; gambar slide, cara hafal, latihan hitung (tambahan, jawaban diverifikasi dengan kode), tes diri
+- `chapters/block-cipher-des.html` — Sessions 5–6: Feistel, DES 5 langkah, kekuatan, serangan; gambar slide + contoh 1 round (opsional)
+- `chapters/modes-of-operation.html` — Session 7: ECB, CBC, CFB, OFB, CTR; rumus, kelebihan-kelemahan, gambar slide, tes diri
+- `chapters/strategi-ujian.html` — peta soal, strategi waktu, cara mengerjakan soal hitung, tips Casio fx-991EX, daftar hafalan semua bab
+- `img/` — gambar yang diambil dari slide dosen
+- `css/style.css` — dark-theme responsive design (sidebar, contoh, tips Casio, latihan buka-tutup)
 - `js/main.js` — shared navigation and mobile menu
 
 ## Notes
 
-These notes summarize topics visible in the uploaded slides. They are a study aid, not a replacement for the lecturer's PPTs. Verify conventions, worked examples, and any additional algorithms against class notes. The Classical Encryption page uses the common A=0 to Z=25 convention for its sample calculations; use the exact convention taught in class if it differs.
+These notes summarize topics visible in the uploaded slides. They are a study aid, not a replacement for the lecturer's PPTs. Verify conventions, worked examples, and any additional algorithms against class notes. The Classical Encryption page uses a=0 to z=25 (sesuai slide dosen) and Hill C = PK for its sample calculations; use the exact convention taught in class if it differs. Practice problems marked "tambahan" are not from the slides; their answers were checked with code.
